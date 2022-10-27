@@ -1,9 +1,17 @@
-  class MyList
-    def initialize
-      @list = list
-    end
+require_relative 'My_Enumerable'
 
-    def each
-      yield @list
-    end
+class MyList
+  include MyEnumerable
+  def initialize(*attrs)
+    @list = attrs
   end
+
+  def each(&block)
+    @list.each(&block)
+  end
+end
+
+list = MyList.new(1, 2, 3, 4)
+list.all? { |e| e < 5 }
+list.all? { |e| e > 5 }
+list.any? { |e| e == 5 }
