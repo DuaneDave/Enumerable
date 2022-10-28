@@ -1,18 +1,17 @@
 # Our Enumerable In Ruby
 
-> In this project, we created our own enumerable in ruby.
+> Enumerable
 
+## Built With
+
+- Ruby
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To get a local copy up and running follow these simple example steps.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-
-## Authors
+- Open up your command line
+- Clone this repo to your machine by using Git clone: Git clone `https://github.com/DuaneDave/Enumerable/`
 
 **Author1**
 
